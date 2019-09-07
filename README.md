@@ -7,7 +7,6 @@ CSVファイルを読むためのクラスモジュールです。
 ```vbnet
     ' Workbooks.Openを使ってCSVファイルを開くコード
     Dim wb As Workbook
-    Dim ws As Worksheet
     Set wb = Workbooks.Open(filePath)
     Debug.Print wb.Worksheets(1).Cells(1, 3)
     wb.Close
